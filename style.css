@@ -1,0 +1,43 @@
+.outsideBox {
+    border: pink 3px solid;
+    height: 400px;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.cityState {
+    border: orchid 3px solid;
+    margin: 15px 85px;
+    padding: 20px;
+}
+
+.zipCode {
+    border: orchid 3px solid;
+    margin: 15px 85px;
+    padding: 20px;
+}
+
+.searchButton {
+    margin: 50px; 
+    padding: 20px;
+    width: 40%;
+}
+
+.container {
+    border: teal 3px solid;
+    margin: 50px;
+}
+
+.currentDayMainRow {
+    border: gray solid 3px; 
+}
+
+.dateTime {
+    border: blue solid 3px;
+}
+
+.currentCity {
+    border: orange solid 3px;
+}
