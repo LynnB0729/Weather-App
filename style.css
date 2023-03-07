@@ -1,20 +1,26 @@
+h1 {
+    padding: 15px;
+}
+.currentCity h2 {
+    padding-top: 180px;
+}
 .outsideBox {
-    border: pink 3px solid;
     height: 400px;
     width: 80%;
     display: block;
-    margin: 0 auto;
+    margin: 45px auto;
     text-align: center;
 }
 
+
 .cityState {
-    border: orchid 3px solid;
+    border: grey 3px solid;
     margin: 15px 85px;
     padding: 20px;
 }
 
 .zipCode {
-    border: orchid 3px solid;
+    border: grey 3px solid;
     margin: 15px 85px;
     padding: 20px;
 }
@@ -27,17 +33,31 @@
 
 .container {
     border: teal 3px solid;
-    margin: 50px;
 }
 
 .currentDayMainRow {
     border: gray solid 3px; 
+    padding: 20px;
 }
 
-.dateTime {
-    border: blue solid 3px;
+.currentTempMiddle { 
+    padding: 80px 0px; 
 }
 
-.currentCity {
-    border: orange solid 3px;
+.middleCircle {
+    font-size: 80px;
 }
+
+.middleTemp {
+    font-size: 50px;
+    padding: 0px;
+}
+
+.fiveDay {
+    padding-top: 180px;
+}
+
+.currentRightDetails {
+    padding: 5px 10px 0px 20px;
+}
+
