@@ -1,6 +1,24 @@
 h1 {
     padding: 15px;
 }
+
+.cityState {
+    width: 100%;
+    font-size: 25px;
+}
+
+#cityState {
+    width: 60%;
+}
+
+.zipCode {
+    width: 100%; 
+    font-size: 25px;  
+}
+
+#zipCode {
+    width: 60%;
+}
 .currentCity h2 {
     padding-top: 180px;
 }
@@ -10,25 +28,6 @@ h1 {
     display: block;
     margin: 45px auto;
     text-align: center;
-}
-
-
-.cityState {
-    border: grey 3px solid;
-    margin: 15px 85px;
-    padding: 20px;
-}
-
-.zipCode {
-    border: grey 3px solid;
-    margin: 15px 85px;
-    padding: 20px;
-}
-
-.searchButton {
-    margin: 50px; 
-    padding: 20px;
-    width: 40%;
 }
 
 .container {

@@ -13,10 +13,20 @@
 <body>
    <div class="outsideBox">
     <h1>Weather Forecast</h1>
-    <div class="cityState">City, State Box</div>
-    <div class="zipCode">Zip Code Box</div>
-    <button class="searchButton">Search</button>
-   </div>   
+
+    <form>
+        <label for="cityState" class="cityState">City, State</label>
+        <input type="text" id="cityState" name="cityState"><br><br>
+    
+        <label for="zipCode" class="zipCode">Zip Code</label>
+        <input type="text" id="zipCode" name="zipCode"><br><br>
+    
+        <input type="submit" value="Submit">
+
+   </div>
+   </form>  
+   
+   <!--this will be the interface that fills when the user searches, so the area will be blank until a search is performed-->
 
    <div class="container-lg">
     
